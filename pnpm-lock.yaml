@@ -23,6 +23,9 @@ importers:
       '@rhinestone/modulekit':
         specifier: github:rhinestonewtf/modulekit#dev
         version: https://codeload.github.com/rhinestonewtf/modulekit/tar.gz/3954cbf62c3d14661bbfcf07f709579c1014925d
+      '@rhinestone/registry':
+        specifier: github:rhinestonewtf/registry
+        version: https://codeload.github.com/rhinestonewtf/registry/tar.gz/6f5e84a0b38ab40de377177f51d59e71be783cee
       '@rhinestone/safe7579':
         specifier: github:rhinestonewtf/safe7579
         version: git+https://git@github.com:rhinestonewtf/safe7579.git#720836dbb8cde04a545bf00c82b48ffcefca25be
@@ -377,6 +380,10 @@ packages:
   '@rhinestone/modulekit@https://codeload.github.com/rhinestonewtf/modulekit/tar.gz/3954cbf62c3d14661bbfcf07f709579c1014925d':
     resolution: {tarball: https://codeload.github.com/rhinestonewtf/modulekit/tar.gz/3954cbf62c3d14661bbfcf07f709579c1014925d}
     version: 0.3.1
+
+  '@rhinestone/registry@https://codeload.github.com/rhinestonewtf/registry/tar.gz/6f5e84a0b38ab40de377177f51d59e71be783cee':
+    resolution: {tarball: https://codeload.github.com/rhinestonewtf/registry/tar.gz/6f5e84a0b38ab40de377177f51d59e71be783cee}
+    version: 1.0.0
 
   '@rhinestone/safe7579@git+https://git@github.com:rhinestonewtf/safe7579.git#720836dbb8cde04a545bf00c82b48ffcefca25be':
     resolution: {commit: 720836dbb8cde04a545bf00c82b48ffcefca25be, repo: git@github.com:rhinestonewtf/safe7579.git, type: git}
@@ -2502,6 +2509,10 @@ snapshots:
 
   '@rhinestone/modulekit@https://codeload.github.com/rhinestonewtf/modulekit/tar.gz/3954cbf62c3d14661bbfcf07f709579c1014925d': {}
 
+  '@rhinestone/registry@https://codeload.github.com/rhinestonewtf/registry/tar.gz/6f5e84a0b38ab40de377177f51d59e71be783cee':
+    dependencies:
+      '@openzeppelin/contracts': 5.0.1
+
   '@rhinestone/safe7579@git+https://git@github.com:rhinestonewtf/safe7579.git#720836dbb8cde04a545bf00c82b48ffcefca25be': {}
 
   '@safe-global/safe-contracts@1.4.1(ethers@5.7.2)':
@@ -4094,7 +4105,7 @@ snapshots:
 
   rimraf@2.7.1:
     dependencies:
-      glob: 7.2.0
+      glob: 7.2.3
 
   ripemd160@2.0.2:
     dependencies:

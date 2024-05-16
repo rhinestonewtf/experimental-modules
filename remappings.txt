@@ -9,6 +9,7 @@ solady/=node_modules/solady/src/
 solarray/=node_modules/solarray/src/
 @rhinestone/modulekit/=node_modules/@rhinestone/modulekit/
 @rhinestone/safe7579/=node_modules/@rhinestone/safe7579/
+@rhinestone/registry/=node_modules/@rhinestone/registry/
 @rhinestone/=node_modules/@rhinestone/
 modulekit/=node_modules/@rhinestone/modulekit/
 @safe-global/=node_modules/@safe-global/
