@@ -26,7 +26,7 @@
     "test:optimized": "pnpm run build:optimized && FOUNDRY_PROFILE=test-optimized forge test"
   },
   "dependencies": {
-    "@rhinestone/modulekit": "github:rhinestonewtf/modulekit#dev",
+    "@rhinestone/modulekit": "^0.4.0",
     "@rhinestone/associatedBytesLib": "github:rhinestonewtf/associatedBytesLib",
     "@rhinestone/checknsignatures": "github:rhinestonewtf/checknsignatures",
     "@rhinestone/registry": "github:rhinestonewtf/registry"
@@ -38,7 +38,7 @@
   "homepage": "https://github.com/rhinestonewtf/experimental-modules#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rhinestonewtf/experimental-modules.git"
+    "url": "git+https://github.com/rhinestonewtf/experimental-modules.git"
   },
   "bugs": {
     "url": "https://github.com/rhinestonewtf/experimental-modules/issues"
