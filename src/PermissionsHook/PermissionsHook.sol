@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import { ERC7579HookDestruct } from "@rhinestone/modulekit/src/modules/ERC7579HookDestruct.sol";
-import { Execution, IERC7579Account } from "@rhinestone/modulekit/src/Accounts.sol";
+import { ERC7579HookDestruct } from "modulekit/Modules.sol";
+import { Execution, IERC7579Account } from "modulekit/Accounts.sol";
 
 import { IERC721 } from "forge-std/interfaces/IERC721.sol";
 import { IERC20 } from "forge-std/interfaces/IERC20.sol";
