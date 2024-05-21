@@ -1,37 +1,38 @@
-## ModuleKit Examples
+# Experimental Modules
 
-**Example modules built using the ModuleKit**
+**Rhinestone Experimental Modules for Smart Accounts**
+
+> These modules are experimental and are not yet ready for production use.
 
 Modules:
 
-- AutoSavings
-- ColdStorageHook
-- ColdStorage
-- Flashloan
-- DeadmanSwitch
-- HookMultiPlexer
-- MFA
-- OwnableExecutor
-- OwnableValidator
-- RegistryHook
-- ScheduledOrders
-- ScheduledTransactions
-- SocialRecovery
+- **AggregatedValidator**: Implementing a validator as an ERC-4337 aggregator
+- **PermissionsHook**: A hook to enforce granular module permissions
 
-## Usage as part of ModuleKit
+## Using the modules
 
-### Install dependencies
+To use the modules in an application, head to our [sdk documentation](https://docs.rhinestone.wtf/module-sdk) for more information. Since these modules are experimental, they are not integrated into the SDK but you can use them as external modules. You will also need to deploy them on the chain required unless we have already done so (see our [address book](https://docs.rhinestone.wtf/overview/address-book)).
 
-```shell
+## Using this repo
+
+To install the dependencies, run:
+
+```bash
 pnpm install
 ```
 
-### Testing modules
+To build the project, run:
 
-```shell
-pnpm test -r
+```bash
+forge build
 ```
 
-## Learn more
+To run the tests, run:
 
-For more information, check out the [ModuleKit documentation](https://docs.rhinestone.wtf/modulekit).
+```bash
+forge test
+```
+
+## Contributing
+
+For feature or change requests, feel free to open a PR, start a discussion or get in touch with us.
