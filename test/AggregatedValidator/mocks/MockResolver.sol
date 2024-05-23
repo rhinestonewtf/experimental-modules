@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
-import "@rhinestone/registry/src/external/IExternalResolver.sol";
+import "registry/external/IExternalResolver.sol";
 
 contract MockResolver is IExternalResolver {
     bool immutable returnVal;

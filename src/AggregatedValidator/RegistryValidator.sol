@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.23;
 
-import { ERC7579ValidatorBase } from "@rhinestone/modulekit/src/Modules.sol";
-import { PackedUserOperation } from "@rhinestone/modulekit/src/external/ERC4337.sol";
+import { ERC7579ValidatorBase } from "modulekit/Modules.sol";
+import { PackedUserOperation } from "modulekit/external/ERC4337.sol";
 
 import { SignatureCheckerLib } from "solady/utils/SignatureCheckerLib.sol";
 import { ECDSA } from "solady/utils/ECDSA.sol";
@@ -11,8 +11,8 @@ import {
     PackedUserOperation,
     _packValidationData as _packValidationData4337,
     ValidationData
-} from "@rhinestone/modulekit/src/external/ERC4337.sol";
-import { IERC7579Validator } from "@rhinestone/modulekit/src/external/ERC7579.sol";
+} from "modulekit/external/ERC4337.sol";
+import { IERC7579Validator } from "modulekit/external/ERC7579.sol";
 
 uint256 constant TYPE_VALIDATOR = 1;
 

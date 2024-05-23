@@ -1,21 +1,21 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import "@rhinestone/modulekit/src/ModuleKit.sol";
-import { IEntryPoint, PackedUserOperation } from "@rhinestone/modulekit/src/external/ERC4337.sol";
-import "@rhinestone/modulekit/src/Helpers.sol";
+import "modulekit/ModuleKit.sol";
+import { IEntryPoint, PackedUserOperation } from "modulekit/external/ERC4337.sol";
+import "modulekit/Helpers.sol";
 import "@ERC4337/account-abstraction/contracts/interfaces/IAggregator.sol";
 import "forge-std/Test.sol";
-import "@rhinestone/modulekit/src/Core.sol";
-import "@rhinestone/registry/src/Registry.sol";
-import "@rhinestone/registry/src/DataTypes.sol";
-import "@rhinestone/modulekit/src/Mocks.sol";
+import "modulekit/Core.sol";
+import "registry/Registry.sol";
+import "registry/DataTypes.sol";
+import "modulekit/Mocks.sol";
 import "src/AggregatedValidator/RegistryValidator.sol";
 import "./mocks/MockResolver.sol";
 import "./mocks/MockSchemaValidator.sol";
 import "./mocks/MockERC1271Attester.sol";
 import "./mocks/MockModule.sol";
-import { MODULE_TYPE_VALIDATOR } from "@rhinestone/modulekit/src/external/ERC7579.sol";
+import { MODULE_TYPE_VALIDATOR } from "modulekit/external/ERC7579.sol";
 
 contract AggregatedValidator is RhinestoneModuleKit, Test {
     using ModuleKitHelpers for *;

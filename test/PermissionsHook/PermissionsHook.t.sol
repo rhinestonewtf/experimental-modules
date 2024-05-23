@@ -2,13 +2,11 @@
 pragma solidity ^0.8.23;
 
 import "forge-std/Test.sol";
-import "@rhinestone/modulekit/src/ModuleKit.sol";
-import { MockExecutor } from "@rhinestone/modulekit/src/Mocks.sol";
+import "modulekit/ModuleKit.sol";
+import { MockExecutor } from "modulekit/Mocks.sol";
 import { Solarray } from "solarray/Solarray.sol";
 
-import {
-    MODULE_TYPE_HOOK, MODULE_TYPE_EXECUTOR
-} from "@rhinestone/modulekit/src/external/ERC7579.sol";
+import { MODULE_TYPE_HOOK, MODULE_TYPE_EXECUTOR } from "modulekit/external/ERC7579.sol";
 import { PermissionsHook, IERC7579Account } from "src/PermissionsHook/PermissionsHook.sol";
 
 contract PermissionsHookTest is RhinestoneModuleKit, Test {

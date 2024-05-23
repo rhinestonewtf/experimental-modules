@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
-import "@rhinestone/registry/src/external/IExternalSchemaValidator.sol";
+import "registry/external/IExternalSchemaValidator.sol";
 
 contract MockSchemaValidator is IExternalSchemaValidator {
     bool immutable returnVal;
