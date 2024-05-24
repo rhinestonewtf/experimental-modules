@@ -26,10 +26,12 @@
     "test:optimized": "pnpm run build:optimized && FOUNDRY_PROFILE=test-optimized forge test"
   },
   "dependencies": {
-    "@rhinestone/modulekit": "^0.4.0",
     "@rhinestone/associatedBytesLib": "github:rhinestonewtf/associatedBytesLib",
     "@rhinestone/checknsignatures": "github:rhinestonewtf/checknsignatures",
-    "@rhinestone/registry": "github:rhinestonewtf/registry"
+    "@rhinestone/modulekit": "^0.4.2",
+    "@rhinestone/registry": "github:rhinestonewtf/registry",
+    "frame-verifier": "github:wilsoncusack/frame-verifier",
+    "solmate": "github:transmissions11/solmate"
   },
   "files": [
     "src",

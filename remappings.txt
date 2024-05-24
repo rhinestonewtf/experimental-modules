@@ -21,3 +21,4 @@ solady/=node_modules/solady/src/
 solarray/=node_modules/solarray/src/
 @prb/math/=node_modules/@prb/math/src/
 solmate/=node_modules/solmate/src/
+frame-verifier/=node_modules/frame-verifier/src/
