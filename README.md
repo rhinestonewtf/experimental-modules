@@ -1,6 +1,6 @@
 # Experimental Modules
 
-**Rhinestone Experimental Modules for Smart Accounts**
+**Rhinestone experimental modules for smart accounts**
 
 > These modules are experimental and are not yet ready for production use.
 
